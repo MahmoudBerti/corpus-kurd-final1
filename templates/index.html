@@ -5,11 +5,14 @@
     <title>Kurdish Corpus (Kurmanji)</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='img/kurdish-corpus.png') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
 </head>
 <body>
     <img src="{{ url_for('static', filename='img/kurdish-corpus.png') }}" alt="Kurdish Corpus">
 
-    <h1>Kurdish Corpus (Kurmanji)</h1>
+    <h1> Kurmanji Kurdish Corpus KurdiLex</h1>
 
     <!-- Main navigation -->
     <nav class="main-nav">
@@ -88,10 +91,30 @@
 
     <!-- Secondary navigation -->
     <nav>
-        <a href="/neologismes">🆕 Neologism Detection</a> |
+       <!-- <a href="/neologismes">🆕 Neologism Detection</a>  |-->
         <a href="/stats">📊 Statistics</a>
     </nav>
 
+    <!-- Social Media Icons -->
+<div class="social-icons">
+  <a href="https://www.facebook.com/profile.php?id=61587549081963" class="facebook" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://x.com/TONCOMPTE" class="x" target="_blank">
+    <i class="fab fa-x-twitter"></i>
+  </a>
+  <a href="https://www.youtube.com/channel/UCq4_2o-mnU0KaLf7E3SPwNA" class="youtube" target="_blank">
+    <i class="fab fa-youtube"></i>
+  </a>
+    <a href="https://www.instagram.com/kurdilex" class="instagram" target="_blank" aria-label="Instagram">
+  <i class="fab fa-instagram"></i>
+</a>
+</div>
+
+
+
+ <p>All rights reserved. This corpus is provided for educational and research use only.</p>
+    <p>All intellectual property rights associated with this corpus are reserved.</p>
     <script src="{{ url_for('static', filename='keyboard.js') }}"></script>
     <script src="{{ url_for('static', filename='autocomplete.js') }}"></script>
 </body>
